@@ -1,2 +1,2 @@
 # Frontend-BA
-curso frontend ba 
+Página web para el curso. 
