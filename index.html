@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // JavaScript para redirigir a WhatsApp
+    function redirectToWhatsApp() {
+      window.location.href = "https://wa.me/5491159113417";
+    }
+  </script>
+  <title>Emilia - Venta de Tejidos Artesanales</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="sobre-mi.html">Sobre Mí</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="https://www.instagram.com/emiliatejidosok/">Redes Sociales</a></li>
+      </ul>
+    </nav>
+    <h1><strong>Emilia</strong></h1>
+    <p>Tu lugar para encontrar tejidos artesanales únicos</p>
+  </header>
+
+ <!-- Código del popup -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <h2>¡Atención!</h2>
+    <p>En nuestra tienda, siempre encontrarás productos disponibles en stock para que puedas disfrutar de ellos de inmediato. Pero eso no es todo. También ofrecemos la posibilidad de personalizar tus pedidos con diseños, colores, texturas y talles especiales.</p>
+    <p>Sabemos que cada persona es única y tiene sus propias preferencias. Es por eso que nos esforzamos por brindarte la opción de crear piezas personalizadas que se adapten perfectamente a tu estilo y necesidades.</p>
+    <p>Ya sea que desees un diseño exclusivo, un color específico o un tamaño especial, estamos aquí para hacerlo realidad. Nuestro equipo de artesanos talentosos trabajará contigo para crear la pieza perfecta que refleje tu personalidad y satisfaga tus gustos.</p>
+    <p>Entra en contacto con nosotros para hablar sobre tus ideas y opciones de personalización. Estamos emocionados de colaborar contigo y hacer realidad tus sueños tejidos.</p>
+    <p>¡Recuerda que la personalización está a solo un clic de distancia!</p>
+    <div class="popup-buttons">
+      <button id="accept-button">Aceptar</button>
+      <a href="https://wa.me/5491159113417" target="_blank"><button>Contactar</button></a>
+    </div>
+  </div>
+</div>
+
+  <!-- Texto de presentación -->
+  <section id="bienvenida">
+    <div class="container">
+    <h2>¡Bienvenidas/os a un legado de tradición y pasión por el tejido!</h2>
+      <p>En nuestra tienda de tejidos artesanales, encontrarás el resultado de más de 50 años de experiencia y dedicación. Nos inspiramos en una mujer excepcional, una maestra tejedora y una verdadera artista de las agujas, cuya familia ha dejado una huella profunda en el mundo de la moda y el tejido.</p>
+      <p>Cada hilo, cada puntada y cada creación reflejan el amor y la maestría que hemos heredado de generaciones pasadas. Nuestros tejidos son el testimonio de la tradición transmitida de madre a hija, una pasión que se mantiene viva y se renueva con cada creación.</p>
+      <p>En nuestra tienda, descubrirás una variedad de tejidos a mano que reflejan la esencia de la tradición y el espíritu creativo. Desde mantas que te envolverán en un abrazo cálido, hasta prendas de vestir que realzarán tu estilo personal, cada artículo ha sido diseñado y confeccionado con cuidado y dedicación.</p>
+      <p>En cada pieza, encontrarás la calidad y el detalle que solo los tejidos artesanales pueden ofrecer. Utilizamos hilos seleccionados minuciosamente y consideramos cada detalle para asegurar que cada producto sea excepcional. Nuestra pasión por el tejido se refleja en cada creación, transmitiendo la calidez y el confort que solo los tejidos artesanales pueden brindar.</p>
+      <p>Al elegir nuestros tejidos, no solo obtienes prendas de calidad, sino que también apoyas a una comunidad de artesanos que han encontrado en el tejido su sustento y su pasión. Tu compra es un gesto de amor hacia nuestras creaciones, pero también un respaldo a la preservación de esta hermosa tradición.</p>
+      <p>Valoramos tu confianza y nos esforzamos por brindarte una experiencia de compra inigualable. Nuestro equipo de atención al cliente está aquí para ayudarte en cada paso del proceso, brindándote asesoramiento personalizado y respondiendo a todas tus consultas.</p>
+      <p>Te invitamos a explorar nuestro catálogo y descubrir la belleza y el encanto de los tejidos artesanales. En cada producto encontrarás la historia de una tradición arraigada en el amor por el tejido, la dedicación a la artesanía y el legado de nuestras raíces.</p>
+      <p>Gracias por ser parte de este viaje, donde el tejido se convierte en una experiencia única e inolvidable. Permítenos ser parte de tu historia y lleva contigo un pedacito de nuestra pasión por los tejidos artesanales.</p>
+      <p>¡Bienvenidos a nuestra tienda, donde el pasado se une al presente y el arte del tejido cobra vida en cada creación!</p>
+    </div>
+  </section>
+
+  <!-- Carrusel -->
+  <section id="banner" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#banner" data-slide-to="0" class="active"></li>
+    <li data-target="#banner" data-slide-to="1"></li>
+    <li data-target="#banner" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/ochostejidos.jpg" class="d-block w-100" alt="Imagen 1">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/lanasencanasta.jpg" class="d-block w-100" alt="Imagen 2">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/lana-tejer-agujas-tejer.jpg" class="d-block w-100" alt="Imagen 3">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#banner" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#banner" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</section>
+
+  <!-- JavaScript para cerrar el popup al hacer clic en "Aceptar" -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var acceptButton = document.getElementById('accept-button');
+    var popup = document.getElementById('popup');
+
+    acceptButton.addEventListener('click', function() {
+      popup.style.display = 'none';
+    });
+  });
+</script>
+
+  <!-- Pie de página -->
+<footer>
+  <div class="footer-content">
+  <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="sobre-mi.html">Sobre Mí</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="https://www.instagram.com/emiliatejidosok/">Redes Sociales</a></li>
+      </ul>
+  </nav>
+    <p>&copy; 2023 Emilia - Venta de Tejidos Artesanales en Stock y A Pedido</p>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
